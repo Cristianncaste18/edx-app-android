@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
@@ -10,13 +11,28 @@
         android:orientation="vertical"
         android:padding="@dimen/container_padding">
 
-        <TextView
-            android:id="@+id/banner_info"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/neutralBlackT"
-            android:textSize="@dimen/edx_small"
-            tools:text="@string/course_dates_banner_reset_date" />
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_calender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widget_margin_x_half"
+                android:layout_marginEnd="@dimen/widget_margin"
+                app:srcCompat="@drawable/ic_calendar"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/banner_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/neutralXXDark"
+                android:textSize="@dimen/edx_medium"
+                tools:text="@string/course_dates_banner_reset_date" />
+        </LinearLayout>
 
         <!--  Use legacy text field instated of material-components-->
         <!--  Ref: https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351  -->
