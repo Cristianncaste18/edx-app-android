@@ -513,7 +513,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Button leading user to log in screen-->
   <string name="launch_login" tools:ignore="MissingTranslation">Iniciar sesión</string>
   <!--Introduction text on the launch screen-->
-  <string name="launch_text" tools:ignore="MissingTranslation">Cursos de las mejores universidades del mundo al alcance de la mano.</string>
+  <string name="launch_text" tools:ignore="MissingTranslation">Bienvenido a Mineduc Digital.</string>
   <!--Search view leading user to Find Courses screen from the launch screen upon searching some text-->
   <string name="launch_search_courses" tools:ignore="MissingTranslation">Buscar cursos</string>
   <!--Registration Screen-->
