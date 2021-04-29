@@ -22,15 +22,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/widget_margin_x_half"
                 android:layout_marginEnd="@dimen/widget_margin"
+                android:visibility="gone"
                 app:srcCompat="@drawable/ic_calendar"
-                android:visibility="gone"/>
+                tools:visibility="visible" />
 
+            <!--  Set lineSpacingMultiplier to 1.1 to match the line spacing height to ~16px -->
             <TextView
                 android:id="@+id/banner_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.1"
                 android:textColor="@color/neutralXXDark"
-                android:textSize="@dimen/edx_medium"
+                android:textSize="@dimen/edx_small"
                 tools:text="@string/course_dates_banner_reset_date" />
         </LinearLayout>
 
@@ -40,6 +43,7 @@
             android:id="@+id/btn_shift_dates"
             style="@style/edX.Widget.PrimaryActionButton"
             android:padding="@dimen/edx_half_margin"
+            android:textSize="@dimen/edx_small"
             android:visibility="gone"
             tools:text="@string/course_dates_banner_reset_date_button"
             tools:visibility="visible" />
