@@ -22,18 +22,19 @@
 
             <ImageView
                 android:id="@+id/iv_edx_logo"
-                android:layout_width="@dimen/logo_width"
-                android:layout_height="@dimen/logo_height"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
                 android:layout_marginTop="@dimen/logo_top_margin"
                 android:contentDescription="@string/phonetic_app_name"
                 android:src="@drawable/launch_screen_logo" />
 
             <TextView
                 android:id="@+id/tv_launch_text"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/widget_margin_double"
                 android:text="@string/launch_text"
+                android:textAlignment="center"
                 android:textColor="@color/edx_brand_primary_base"
                 android:textSize="@dimen/edx_xx_large" />
 

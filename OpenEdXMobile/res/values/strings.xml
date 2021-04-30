@@ -575,7 +575,7 @@
     <!-- Button leading user to log in screen -->
     <string name="launch_login">Log In</string>
     <!-- Introduction text on the launch screen -->
-    <string name="launch_text">Courses from the world’s best universities in your pocket.</string>
+    <string name="launch_text">Welcome to Mineduc Digital.</string>
     <!-- Search view leading user to Find Courses screen from the launch screen upon searching some text -->
     <string name="launch_search_courses">Search Courses</string>
 
