@@ -25,7 +25,7 @@
                 android:layout_marginBottom="3dp"
                 android:orientation="vertical">
 
-                <FrameLayout
+                <!--FrameLayout
                     android:id="@+id/fl_logo"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/login_edx_logo_height"
@@ -50,7 +50,7 @@
                         android:layout_gravity="center"
                         android:contentDescription="@string/phonetic_app_name"
                         android:src="@drawable/login_screen_logo" />
-                </FrameLayout>
+                </FrameLayout-->
 
                 <LinearLayout
                     android:id="@+id/ll_login_form"
